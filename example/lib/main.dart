@@ -17,7 +17,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   var _lastKnownLocation = 'Unknown';
-  final _locationAndroidPlugin = LocationAndroid();
+  final _locationAndroidPlugin = LocationAndroid.instance;
 
   @override
   void initState() {
